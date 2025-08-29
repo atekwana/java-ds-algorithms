@@ -5,7 +5,7 @@ public class LinkedListDriver {
     public static void main(String[] args) {
 
 
-        // linked list objected instantiated 
+        // linked list objected instantiated
         SinglyLinkedList<Integer> llds = new SinglyLinkedList<>();
 
         llds.createSinglyLinkedList(5);
@@ -30,8 +30,6 @@ public class LinkedListDriver {
 
         llds.traverseSinglyLinkedList();
 
-
-        
     }
 
 }
