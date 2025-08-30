@@ -36,11 +36,11 @@ public class ArrayProject {
                 above++;
 
             }
+
         }
+
         System.err.println();
-
         System.out.println("Average Temp: " + average);
-
         System.out.println(above + " days above average");
 
         stdin.close();
