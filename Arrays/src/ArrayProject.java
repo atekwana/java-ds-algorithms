@@ -17,7 +17,7 @@ public class ArrayProject {
         // record temperatures and find average
         for (int index = 0; index < days; index++) {
 
-            System.out.print("Day " + (index + 1)+ "'s high temp: ");
+            System.out.print("Day " + (index + 1) + "'s high temp: ");
             temps[index] = stdin.nextInt();
             sum += temps[index];
 
