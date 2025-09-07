@@ -1,11 +1,11 @@
 
 public class ListNode<T> {
 
-    public T value;
+    protected T value;
 
-    public ListNode<T> next;
+    protected ListNode<T> next;
 
-    public ListNode<T> prev;
+    protected ListNode<T> prev;
 
     public ListNode() {
 
