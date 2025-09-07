@@ -135,7 +135,7 @@ public class LinearArrayQueue<T> {
      */
     public int peek() {
 
-        if (!(isEmpty())) {
+        if (!isEmpty()) {
 
             return arr[begOfQueue];
 
