@@ -1,4 +1,4 @@
-public class ArrayQueue<T> {
+public class LinearArrayQueue<T> {
 
     // protected variable(s)
     protected int[] arr;
@@ -16,7 +16,7 @@ public class ArrayQueue<T> {
      *
      * @param size
      */
-    public ArrayQueue(int size) {
+    public LinearArrayQueue(int size) {
 
         this.arr = new int[size];
         this.top = -1;

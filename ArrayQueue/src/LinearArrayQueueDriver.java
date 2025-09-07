@@ -1,8 +1,8 @@
-public class ArrayQueueDriver {
+public class LinearArrayQueueDriver {
     public static void main(String[] args) throws Exception {
 
         // System.out.println("Hi");
-        ArrayQueue<Integer> queue = new ArrayQueue<>(3);
+        LinearArrayQueue<Integer> queue = new LinearArrayQueue<>(3);
 
         // full queue?
         boolean full = queue.isFull();
