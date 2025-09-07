@@ -30,5 +30,9 @@ public class LinearArrayQueueDriver {
         result = queue.peek();
         System.out.println(result + " is the top element in queue.");
 
+        // deleting queue
+        System.out.println();
+        queue.delete();
+
     }
 }
