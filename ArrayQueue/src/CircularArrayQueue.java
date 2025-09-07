@@ -1,5 +1,6 @@
 public class CircularArrayQueue<T> {
 
+    // protected attribute(s)
     protected int[] arr;
     protected int top;
     protected int size;
